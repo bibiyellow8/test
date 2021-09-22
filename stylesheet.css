@@ -1,0 +1,113 @@
+header {
+  margin: 0 auto;
+  width: 960px;
+  height: 60px;
+}
+
+.header-logo {
+  float: left;
+  font-weight: bold;
+}
+
+.header-list {
+  float: right;
+  font-weight: bold;
+}
+
+.header-list ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-list li {
+  padding: 0 15px;
+}
+
+.top-img {
+  height: 450px;
+  background: url("iiii1.png");
+  background-size: cover;
+}
+
+.contents-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.contents-deitora {
+  display: flex;
+}
+
+.contents-deitora p {
+  font-weight: bold;
+}
+
+.contents-deitora img {
+  width: 50%;
+  padding-right: 15px;
+}
+
+.contents-course {
+  display: flex;
+  padding-left: 0px;
+}
+
+.contents-course li {
+  width: calc(100%/3);
+  list-style: none;
+}
+
+.contents-course img {
+  max-width: 100%;
+  height: auto;
+}
+
+.li-center {
+  padding: 0 20px;
+}
+
+.p-txt {
+  text-align: left;
+  margin:0 auto;
+}
+
+.contents-form {
+  text-align: center;
+}
+
+.contents-form p {
+  margin: 0;
+}
+
+.contents-form input {
+  border: 2px solid rgb(177,176,176);
+  padding: 5px 0;
+  border-radius: 20px;
+  box-shadow: none;
+  width: 50%;
+  height: 30px;
+}
+
+.form-btn {
+  display: block;
+  background: rgba(255,0,0,0.541);
+  padding: 15px 0;
+  width: 40%;
+  margin: 20px auto 0 auto;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  border-top: solid 2px rgba(0,0,0,0.075);
+  margin: 100px auto 0 auto;
+  width: 960px;
+  height: 60px;
+  text-align: right;
+}
